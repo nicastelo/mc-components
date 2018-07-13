@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots components|Badge default 1`] = `
+exports[`Storyshots components|HeaderLoggedOut default 1`] = `
 <div
   style={
     Object {
@@ -12,11 +12,46 @@ exports[`Storyshots components|Badge default 1`] = `
     <div
       style={Object {}}
     >
-      <span
-        className="badge"
+      <div
+        className="header-logged-out"
       >
-        2
-      </span>
+        <div
+          className="header-logged-out__nav"
+        >
+          <div
+            className="header-logged-out__section"
+          >
+            <a
+              className="header-logged-out__wordmark"
+              href="/"
+            >
+              <img
+                alt="Logo wordmark"
+                src=""
+              />
+            </a>
+            <a
+              className="header-logged-out__logo"
+              href="/"
+            >
+              <img
+                alt="Logo"
+                src=""
+              />
+            </a>
+          </div>
+          <div
+            className="header-logged-out__section"
+          >
+            <a
+              className="header-logged-out__login-link mc-modal-login-trigger"
+              href="/#"
+            >
+              Log In
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <div>
       <div
@@ -72,37 +107,9 @@ exports[`Storyshots components|Badge default 1`] = `
                   }
                 >
                   &lt;
-                  Badge
+                  HeaderLoggedOut
                 </span>
-                <span>
-                  <span>
-                     
-                    <span
-                      style={Object {}}
-                    >
-                      count
-                    </span>
-                    <span>
-                      =
-                      <span
-                        style={Object {}}
-                      >
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }
-                        >
-                          2
-                        </span>
-                        }
-                      </span>
-                    </span>
-                     
-                  </span>
-                </span>
+                <span />
                 <span
                   style={
                     Object {
@@ -159,94 +166,12 @@ exports[`Storyshots components|Badge default 1`] = `
               }
             >
               "
-              Badge
+              HeaderLoggedOut
               " Component
             </h2>
-            <table
-              className="css-1ytzlk7"
-            >
-              <thead>
-                <tr>
-                  <th
-                    className="css-d52hbj"
-                  >
-                    property
-                  </th>
-                  <th
-                    className="css-d52hbj"
-                  >
-                    propType
-                  </th>
-                  <th
-                    className="css-d52hbj"
-                  >
-                    required
-                  </th>
-                  <th
-                    className="css-d52hbj"
-                  >
-                    default
-                  </th>
-                  <th
-                    className="css-d52hbj"
-                  >
-                    description
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td
-                    className="css-1ygfcef"
-                  >
-                    count
-                  </td>
-                  <td
-                    className="css-1ygfcef"
-                  >
-                    <span />
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    yes
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    -
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  />
-                </tr>
-                <tr>
-                  <td
-                    className="css-1ygfcef"
-                  >
-                    className
-                  </td>
-                  <td
-                    className="css-1ygfcef"
-                  >
-                    <span />
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    -
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    -
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  />
-                </tr>
-              </tbody>
-            </table>
+            <small>
+              No propTypes defined!
+            </small>
           </div>
         </div>
       </div>
